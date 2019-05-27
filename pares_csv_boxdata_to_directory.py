@@ -78,11 +78,6 @@ def create_xmlFile(image_name,message):
     tree = ET.ElementTree(root)
     tree.write(xml_path, 'utf-8')
 
-
-
-
-
-
 if __name__ == '__main__':
     read_excle()
     create_xmlFile()
